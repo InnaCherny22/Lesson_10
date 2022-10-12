@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+.article {
+	font-family: "Lato";
+}
+.article__container {
+max-width: 810px;
+margin: 0 auto; 
+}
+.article__header {
+font-style: normal;
+font-weight: 900;
+font-size: 46px;
+line-height: 130%;
+display: flex;
+align-items: center;
+color: #1E212C;
+margin-bottom: 92px;
+}
+.article__image {
+	margin-bottom: 60px;
+}
+.article__text {
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 150%;
+color: #1E212C;
+margin-bottom: 24px;
+}
+.article__paragraph {
+	font-size: 16px;
+line-height: 160%;
+color: #424551;
+margin-bottom: 48px;
+}
+.article__paragraph p {
+	padding-bottom: 35px;
+}
+.article__quote {
+background: url(../img/braces.svg) 0px 0px no-repeat;
+padding-left: 58px;
+font-weight: 700;
+font-size: 20px;
+line-height: 150%;
+color: #1E212C;
+margin-bottom: 48px;
+} 
+.article__paragraph li {
+	background: url("../img/Vector.jpg") 6px 6px no-repeat;
+	padding-left: 32px;
+	padding-bottom: 4px;
+}
+.article__paragraph ul {
+	margin-bottom: 24px;
+}
+
